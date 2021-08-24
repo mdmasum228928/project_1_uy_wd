@@ -319,6 +319,33 @@ a{
 
 /* =================== responsive area starts ================= */
 @media (max-width: 575.98px) {
+    .about_area{
+        padding-bottom: 50px;
+    }
+    .about_area h3{
+        font-size: 25px;
+    }
+    .about_area p{
+        font-size: 10px;
+    }
+    .banner_area h1{
+        font-size: 50px;
+     }
+     .banner_area p{
+         font-size: 14px;
+         margin-left: 65px;
+         margin-right: 65px;
+     }
+     .banner_area #action{
+         padding: 15px 25px;
+         font-size: 15px;
+     }
+     .banner_area #down{
+         display: block;
+         height: 91px;
+         color: #ffffff;
+         font-size: 35px;
+     }
     #header_area{
         position: relative;
     }
@@ -410,6 +437,33 @@ a{
     #header_area{
         position: relative;
     }
+    .about_area{
+        padding-bottom: 50px;
+    }
+    .about_area h3{
+        font-size: 25px;
+    }
+    .about_area p{
+        font-size: 10px;
+    }
+    .banner_area h1{
+        font-size: 50px;
+     }
+     .banner_area p{
+         font-size: 14px;
+         margin-left: 65px;
+         margin-right: 65px;
+     }
+     .banner_area #action{
+         padding: 15px 25px;
+         font-size: 15px;
+     }
+     .banner_area #down{
+         display: block;
+         height: 91px;
+         color: #ffffff;
+         font-size: 35px;
+     }
     #menu_text{
         display: block;
         position: absolute;
@@ -507,6 +561,30 @@ a{
     #menu_icon{
         display: block;
     }
+    .about_area h3{
+        font-size: 25px;
+    }
+    .about_area p{
+        font-size: 10px;
+    }
+    .banner_area h1{
+        font-size: 65px;
+     }
+     .banner_area p{
+         font-size: 16px;
+         margin-left: 120px;
+         margin-right: 120px;
+     }
+     .banner_area #action{
+         padding: 15px 25px;
+         font-size: 15px;
+     }
+     .banner_area #down{
+         display: block;
+         height: 91px;
+         color: #ffffff;
+         font-size: 35px;
+     }
     .service_area{
         grid-template-columns: 1fr;
     }
