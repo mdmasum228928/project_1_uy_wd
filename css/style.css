@@ -1,0 +1,547 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+ul,ol{
+    list-style: none;
+}
+img{
+    width: 100%;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+/* common css end */
+/* =========== header area starts ================ */
+#header_area{
+    
+}
+.menu_area{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+.logo{
+    margin-top: 31px;
+}
+.logo img{
+    width: 154px;
+}
+.menu{
+    display: flex;
+}
+.menu ul{
+    display: flex;
+    line-height: 100px;
+}
+.menu ul li{}
+.menu ul li a{
+    margin-right: 36px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #2d3950;
+}
+#menu_text{
+    /* display: none; */
+}
+#menu_icon{
+    display: none;
+}
+/* header area ends */
+/* ============= banner area starts ======= */
+#banner{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner_area{
+    text-align: center;
+}
+.banner_area h1{
+   padding-top: 214px;
+   color: #ffffff;
+   font-size: 120px;
+   font-weight: 700;
+   margin-bottom: 39px;
+}
+.banner_area p{
+    margin-bottom: 67px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+}
+.banner_area #action{
+    padding: 20px 33px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    border: 1px solid #15a3f9;
+    margin-bottom: 178px;
+    display: inline-block;
+}
+.banner_area #down{
+    display: block;
+    height: 91px;
+    color: #ffffff;
+    font-size: 35px;
+}
+/* banner area ends */
+/* ============== about area starts =========  */
+#about{
+    background: #f6f9f9;
+    margin: 0 auto;
+   text-align: center;
+}
+.about_area{
+    padding-top: 80px;
+    padding-bottom: 108px;
+}
+.about_area h3{
+    font-size: 40px;
+    color: #2d3950;
+    padding-bottom: 10px;
+}
+.about_area p{
+    font-size: 20px;
+    color: #999999;
+}
+/* about area ends */
+/* =========  service_area starts ========== */
+#service{}
+.service_area{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 15px;
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+.service_box{
+
+}
+.ser_content_icon{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to left,#48baff 50%, #5fc3ff 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-bottom: 32px;
+}
+.ser_content_icon i{
+    font-size: 40px;
+    color: #ffffff;
+}
+.ser_content_text{}
+.ser_content_text h5{
+    font-size: 22px;
+    color: #2d3950;
+    text-align: center;
+}
+.ser_content_text p{
+    font-size: 15px;
+    color: #999999;
+    text-align: center;
+    margin: 0 20px;
+}
+/* service area ends */
+/* ============ portfolio area starts ======= */
+#portfolio{
+    background: #f6f9f9;
+}
+.portfolio_area{
+    padding-bottom: 116px;
+}
+.portfolio_title{
+    padding: 81px 0;
+    text-align: center;
+}
+.portfolio_title h2{
+    font-size: 41px;
+    color: #2d3950;
+    margin-bottom: 21px;
+}
+.portfolio_title p{
+    font-size: 15;
+    color: #909090;
+}
+.portfolio_section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+.portfolio_img{
+    position: relative;
+    overflow: hidden;
+}
+.portfolio_overlay{
+    background: rgba(44, 172, 248, 0.9);
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: .3s;
+}
+.portfolio_overlay ul{
+    display: flex;
+}
+.portfolio_overlay ul li{
+    border: 1px solid #fff;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+.portfolio_img:hover .portfolio_overlay{
+    opacity: 1;
+    left: 0;
+}
+/* portfolio area ends */
+/* ========== contact area starts ========== */
+#contact{
+    background-image: url(../images/form.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact_bg{
+    background: rgba(0, 0, 0, 0.8);
+}
+.contact_area{
+    width: 554px;
+    margin: 0 auto;
+}
+.contact_title{
+    padding-top: 75px;
+}
+.contact_title h2{
+    font-size: 41px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 24px;
+}
+.contact_title p{
+    text-align: center;
+    font-size: 15px;
+    text-align: center;
+    color: #999999;
+    padding-bottom: 51px;
+}
+.contact_form{}
+.contact_input{
+    
+}
+.contact_input input{
+    width: 100%;
+    height: 30px;
+    padding: 15px 20px;
+    font-size: 15px;
+    color: #999999;
+    background: transparent;
+    border: 1px solid #999999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.contact_submit{
+    width: 595px;
+    padding-bottom: 110px;
+}
+.contact_submit input[type="checkbox"]{
+    margin-right: 16px;
+    margin-top: 15px;
+}
+.contact_submit input[type="submit"]{
+    background: transparent;
+    margin-left: 258px;
+    padding: 16px 51px;
+    border: 1px solid #15a3f9;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 18px;
+}
+.contact_submit span{
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: 15px;
+}
+/* contact area ends */
+/* =========== footer area starts ================== */
+#footer{
+    height: 90px;
+}
+.footer_area{
+    display: flex;
+    justify-content: space-between;
+}
+.foot_left{
+    line-height: 90px;
+    color: #999999;
+}
+.foot_right{
+    display: flex;
+    margin-top: 25px;
+}
+.foot_right a{
+    margin-left: 5px;
+}
+.foot_right a i{
+    width: 40px;
+    height: 40px;
+    background: #15a4fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 15px;
+}
+/* footer area ends */
+
+
+
+/* =================== responsive area starts ================= */
+@media (max-width: 575.98px) {
+    #header_area{
+        position: relative;
+    }
+    #menu_text{
+        display: block;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #34495e;
+        width: 100%;
+        display: none;
+    }
+    #menu_text li{
+        border-bottom: 1px solid #2d3950;
+    }
+    #menu_text a{
+        color: #fff;
+        margin-left: 20px;
+    }
+    #menu_icon{
+        display: block;
+    }
+    .service_area{
+        grid-template-columns: 1fr;
+    }
+    .service_box{
+        margin-top: 100px;
+    }
+    .portfolio_section{
+        grid-template-columns: 1fr;
+        grid-row-gap: 20px;
+    }
+    .portfolio_area{
+        padding-bottom: 50px;
+    }
+    .portfolio_title h2{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .portfolio_title p{
+        font-size: 10;
+    }
+    .contact_area{
+        width: 200px;
+    }
+    .contact_title{
+        padding-top: 75px;
+    }
+    .contact_title h2{
+        font-size: 41px;
+        color: #fff;
+        font-weight: 400;
+        text-align: center;
+        padding-bottom: 24px;
+    }
+    .contact_title p{
+        text-align: center;
+        font-size: 15px;
+        text-align: center;
+        color: #999999;
+        padding-bottom: 51px;
+    }
+    .contact_submit{
+        width: 200px;
+    }
+    .contact_submit input[type="checkbox"]{
+        margin-right: 16px;
+        margin-top: 15px;
+    }
+    .contact_submit input[type="submit"]{
+        margin-left: 0;
+        padding: 10px 26px;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .footer_area{
+        display: block;
+    }
+    .foot_right{
+        padding-bottom: 50px;
+    }
+    .foot_left{
+        line-height: 45px;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #header_area{
+        position: relative;
+    }
+    #menu_text{
+        display: block;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #34495e;
+        width: 100%;
+        display: none;
+    }
+    #menu_text li{
+        border-bottom: 1px solid #2d3950;
+    }
+    #menu_text a{
+        color: #fff;
+        margin-left: 20px;
+    }
+    #menu_icon{
+        display: block;
+    }
+    .service_area{
+        grid-template-columns: 1fr;
+    }
+    .service_box{
+        margin-top: 100px;
+    }
+    .portfolio_section{
+        grid-template-columns: 1fr;
+        grid-row-gap: 20px;
+    }
+    .portfolio_area{
+        padding-bottom: 50px;
+    }
+    .portfolio_title h2{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .portfolio_title p{
+        font-size: 10;
+    }
+    .contact_area{
+        width: 250px;
+    }
+    .contact_title{
+        padding-top: 75px;
+    }
+    .contact_title h2{
+        font-size: 41px;
+        color: #fff;
+        font-weight: 400;
+        text-align: center;
+        padding-bottom: 24px;
+    }
+    .contact_title p{
+        text-align: center;
+        font-size: 15px;
+        text-align: center;
+        color: #999999;
+        padding-bottom: 51px;
+    }
+    .contact_submit{
+        width: 250px;
+    }
+    .contact_submit input[type="checkbox"]{
+        margin-right: 16px;
+        margin-top: 15px;
+    }
+    .contact_submit input[type="submit"]{
+        margin-left: 0;
+        padding: 10px 26px;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #header_area{
+        position: relative;
+    }
+    #menu_text{
+        display: block;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #34495e;
+        width: 100%;
+        display: none;
+    }
+    #menu_text li{
+        border-bottom: 1px solid #2d3950;
+    }
+    #menu_text a{
+        color: #fff;
+        margin-left: 20px;
+    }
+    #menu_icon{
+        display: block;
+    }
+    .service_area{
+        grid-template-columns: 1fr;
+    }
+    .service_box{
+        margin-top: 100px;
+    }
+    .portfolio_section{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #header_area{
+        position: relative;
+    }
+    #menu_text{
+        display: block;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #34495e;
+        width: 100%;
+        display: none;
+    }
+    #menu_text li{
+        border-bottom: 1px solid #2d3950;
+    }
+    #menu_text a{
+        color: #fff;
+        margin-left: 20px;
+    }
+    #menu_icon{
+        display: block;
+    }
+}
+/* // Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
